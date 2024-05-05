@@ -1,0 +1,60 @@
+
+* {
+	font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-size: 4.21rem !important;
+}
+
+h2 {
+    font-size: 3.16em !important;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2.37em !important;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.78em !important;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1.33em !important;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+
+input {
+    font-family: inherit;
+    font-size: 1rem !important;
+    background: none;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #808080;
+}
+
+p {
+    font-size: 1rem !important;
+    line-height: 1.5rem;
+}
+
+.navbar {
+	padding: 0rem 5rem 0rem 5rem;
+}
+
+
+.my-padding {
+	padding: 5rem 5rem 5rem 5rem;
+}
+
+.my-padding-2 {
+	padding: 0rem 5rem 0rem 5rem;
+}
