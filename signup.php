@@ -1,5 +1,9 @@
 <?php
 	session_start();
+	if (isset($_SESSION['user_account'])){
+		header("Location: /paws/");
+		exit();
+	}
 ?>
 
 <!DOCTYPE html>
@@ -19,13 +23,12 @@
 	?>
 
 	<div class="container-fluid">
-	<?php
-		include "includes/components/Adopt/cards.php";
-
-	?>
+		<?php
+			include ("includes/components/User/signup.php");
+		?>
 	</div>
 	<?php
-		include "includes/components/footer.php";
+		include ("includes/components/footer.php");
 	?>
 </body>
 </html>

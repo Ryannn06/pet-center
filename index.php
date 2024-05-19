@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,25 +9,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>The Paws Center</title>
 	<?php
-		include "components/JS/main.js";
+		include "includes/components/JS/main.js";
 	?>
 </head>
 <body>
 	<?php
 		define('Permission', TRUE);
-		include "navbar.php";
+		include "includes/components/navbar.php";
 	?>
 
 	<div class="container-fluid">
 		<?php
-			include ("components/Home/hero.php");
-			include ("components/Home/about.php");
-			include ("components/Home/adopt.php");
-			include ("components/Home/donate.php");
+			include ("includes/components/Home/hero.inc.php");
+			include ("includes/components/Home/about.php");
+			include ("includes/components/Home/adopt.php");
+			include ("includes/components/Home/donate.php");
 		?>
 	</div>
 	<?php
-		include ("footer.php");
+		include ("includes/components/footer.php");
 	?>
 </body>
 </html>

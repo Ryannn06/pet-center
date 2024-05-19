@@ -13,7 +13,7 @@
             <h2 class="pb-3">We've raised over $600 for homeless animals</h2>
             <p class="pb-3 text-muted">Take a part in our donation drive to support homeless   animals in need providing them with care, shelter, and hope they deserve for a brighter tommorow.
             </p>
-            <a class="btn btn-outline-success">Donate now</a>
+            <a class="btn btn-outline-primary">Donate now</a>
         </div>
         
     </div>

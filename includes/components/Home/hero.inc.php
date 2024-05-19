@@ -11,7 +11,7 @@
 		<h1 class="pb-3">We Make a Change on Their Lives</h1>
 		<form class="d-flex col-md-12">
         	<input class="form-control me-2" type="search" placeholder="Search for available adoption..." aria-label="Search">
-        	<button class="btn btn-outline-success" type="submit">Search</button>
+        	<button class="btn btn-outline-primary" type="submit">Search</button>
       	</form>
 	</div>
 	<div class="col-md-auto">	

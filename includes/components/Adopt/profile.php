@@ -4,8 +4,9 @@
         //header('HTTP/1.0 403 Forbidden');
         //exit;
     }
+    
     include_once ('../includes/database.inc.php');
-    include ('../components/Adopt/form.php');
+    include ('../includes/components/Adopt/form.php');
 ?>
 
 <div class="row my-padding">
@@ -68,7 +69,7 @@
 							<p></p>
 						</div>
 						<div class="col-md-12">
-							<button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form">
+							<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#form">
 								schedule for appointment
 							</button>
 						</div>

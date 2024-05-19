@@ -1,13 +1,3 @@
-<?php
-	session_start();
-	
-	if (!isset($_SESSION['user_account'])){
-		header("Location: /paws/login.php");
-		exit();
-	}
-
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,7 +21,19 @@
 
 	<div class="container-fluid">
 		<?php
-			include ("../includes/components/Adopt/profile.php");
+			$status = $_GET['status'];
+
+			if ($status == 'success'){
+				echo '<div class="row my-padding">
+					<h2 class="text-center pb-2">Appointment is under review!</h2>
+					<p class="text-center">Appointment booked succesfully and under review. You will be notified via email once it has been approved.</p>
+				</div>';
+			} else {
+				echo '<div class="row my-padding">
+					<h2 class="text-center pb-2">Oops, something went wrong.</h2>
+					<p class="text-center">We keep track of these errors, but feel free to contact us if refreshing does not fix things.</p>
+				</div>';
+			}
 		?>
 	</div>
 	<?php
