@@ -13,11 +13,11 @@
 		<div class="col-lg-6"></div>
 		<div class="col-lg-6">
 			<div class="mb-5">
-				<h3 class="">Be part of the change!</h3>
-				<p class="text-muted">Create account for free and build connections with us.
+				<h3 class="">It's nice meeting you!</h3>
+				<p class="text-muted">Create an administrator account to manage the system.
 				</p>
 			</div>
-			<form action="./includes/register.inc.php" method="post"> <!--onsubmit="return validatePassword()"-->
+			<form action="./includes/admin_register.inc.php" method="post"> <!--onsubmit="return validatePassword()"-->
 				<div class="mb-3 row">
 					<div class="col-md-6">
 						<label for="first_name" class="form-label">First name</label>
@@ -82,23 +82,3 @@
 		</div>
 	</div>
 </div>
-
-
-<!--
-<script type="text/javascript">
-	const validatePassword = () => {
-
-		var password = document.getElementById("password").value;
-		var message = document.getElementById("message");
-		
-		if (password.length < 8){
-			message.innerHTML = "Password is too short.";
-			return false;
-
-		}
-
-		return true;
-	
-	}
-</script>
---->

@@ -1,4 +1,6 @@
 <?php
+	session_start();
+	
 	if(isset($_SESSION['user_account'])){
 		session_destroy();
 		header("Location: /paws/");

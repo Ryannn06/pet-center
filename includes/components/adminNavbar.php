@@ -7,35 +7,35 @@
     }
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light navbar-admin card">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">The Paws Center </a>
+        <a class="navbar-brand text-muted" href="#">The Paws Center </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="/paws">Home</a>
+                    <a class="nav-link text-muted" href="/paws/dashboard.php">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="/paws/about.php">About</a>
+                    <a class="nav-link text-muted" href="/paws/pet_profile.php">Pet Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="/paws/adopt.php">Adopt</a>
+                    <a class="nav-link text-muted" href="/paws/appointment.php">Appointments</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Donate</a>
+                    <a class="nav-link text-muted" href="#">Accounts</a>
                 </li>
                 <?php
                     if(isset($_SESSION['user_account'])){
                         echo '<li class="nav-item">
-                                <a class="nav-link text-dark" href="/paws/includes/logout.inc.php">Logout</a>
+                                <a class="nav-link text-muted" href="/paws/includes/logout.inc.php">Logout</a>
                                 </li>';
                     } else {
                         echo '<li class="nav-item">
-                                    <a class="nav-link text-dark" href="/paws/login.php">Login
+                                    <a class="nav-link text-muted" href="/paws/login.php">Login
                                     </a>
                                 </li>';
                     }

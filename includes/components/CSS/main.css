@@ -1,6 +1,6 @@
 
 * {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Inter", sans-serif;
 }
 
 h1 {
@@ -56,5 +56,9 @@ p {
 }
 
 .my-padding-2 {
-	padding: 0rem 5rem 0rem 5rem;
+	padding: 2.5rem 5rem 2.5rem 5rem;
+}
+
+.navbar-admin {
+    background: #ffffff;
 }

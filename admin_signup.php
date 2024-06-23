@@ -1,13 +1,13 @@
 <?php
 	session_start();
-	
+
 	if (isset($_SESSION['user_account'])){
 		header("Location: /paws/");
 		exit();
+	}  else {
+		include_once("includes/validate_num_admin.inc.php");
 	}
-
 ?>
-
 
 <!DOCTYPE html>
 <html>
@@ -21,13 +21,12 @@
 </head>
 <body>
 	<?php
-		define('Permission', TRUE);
 		include "includes/components/navbar.php";
 	?>
 
 	<div class="container-fluid">
 		<?php
-			include ("includes/components/User/login.php");
+			include ("includes/components/User/adminSignup.php");
 		?>
 	</div>
 	<?php

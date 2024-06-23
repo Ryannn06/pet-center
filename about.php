@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>The Paws Center</title>
 	<?php
-		include "includes/components/JS/main.js";
+		include "includes/main.inc.php";
 	?>
 </head>
 <body>

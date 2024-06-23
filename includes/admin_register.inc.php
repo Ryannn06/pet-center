@@ -7,8 +7,8 @@
 		$email = $_POST['email_address'];
 		$password = $_POST['password'];
 		$confirm_password = $_POST['confirm_password'];
-		$is_staff = 0;
-		$is_admin = 0;
+		$is_staff = 1;
+		$is_admin = 1;
 
 		//create array for errors
 		$errorArray = array();
